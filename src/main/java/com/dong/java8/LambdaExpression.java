@@ -7,7 +7,6 @@ import java.util.function.Function;
 import java.util.function.Predicate;
 
 public class LambdaExpression {
-
     public static void main(String[] args) {
         Comparator<Apple> byColor = new Comparator<Apple>() {
             @Override
